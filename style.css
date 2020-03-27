@@ -14,70 +14,16 @@ body {
   background-color: #141414;
 }
 
-/* NAVIGATION */
-
-/*
-#navbar {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: fixed;
-    background-color: #141414;
-    width: 100%;
-    height: 3.8rem;
-    box-shadow: 0 2px 0 #efefef;
-    padding-right: 1rem;
-}
-
-.nav-list {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-right: 1rem;
-}
-
-.nav-list li {
-    list-style: none;
-    color: #efefef;
-    font-size: 2rem;
-    padding-right: .5rem;
-    padding-left: .5rem;
-    border-radius: 2px;
-}
-
-.nav-list a {
-    text-decoration: none;
-    color: #efefef;
-}
-
-.nav-list a:hover {
-    color: #141414;
-}
-
-.nav-list li:hover {
-  background-color: #efefef;
-}
-*/
-
 /* WELCOME SECTION */
 
 #welcome-section {
-  height: 70vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #efefef;
 }
-
-/* #top-triangle {
-  height: 10rem;
-  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
-  z-index: 888;
-  background-color: #141414;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-} */
 
 #welcome-section .welcome-heading {
   font-size: 10rem;
@@ -102,7 +48,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  margin-top: 4rem;
+  /* margin-top: 2rem; */
   display: inline-block;
   border-radius: 10rem;
   transition: all 0.2s;
@@ -125,6 +71,7 @@ a:active {
 
 .btn--black:hover {
   transform: translateY(-3px);
+  background-color: rgba(49, 49, 49, 0.411);
 }
 
 .btn--black:active {
@@ -258,6 +205,55 @@ a {
   text-decoration: none;
   border-radius: 10rem;
 }
+
+/* ABOUT SECTION */
+
+#about-section {
+  background-color: #141414;
+  padding: 2rem 2rem 6rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #efefef;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.about-me {
+  background-color: #efefef;
+  margin-top: 6rem;
+  /* margin-bottom: 6rem; */
+  padding-bottom: 5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#141414;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.about-me h1 {
+  color: #141414;
+  padding-top: 5rem;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.about-me-wrapper {
+  display: flex;
+  padding: 2rem;
+}
+
+.about-me p {
+  color: #141414;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+}
+
+.profile-pic {
+  padding: 1rem 2rem;
+}
+
 
 /* CONTACT SECTION */
 
