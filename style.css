@@ -70,8 +70,11 @@ a:active {
 }
 
 .btn--black:hover {
-  transform: translateY(-3px);
-  background-color: rgba(49, 49, 49, 0.411);
+  transform: rotate(-5deg) !important;
+  border-radius: 0;
+  color: #141414;
+  background-color: #efefef;
+  transform: translateY(-3px); 
 }
 
 .btn--black:active {
@@ -154,20 +157,16 @@ main {
   border-radius: 8px;
 }
 
-
-body { font-family: sans-serif; }
-
 .scene {
-  width: 200px;
-  height: 260px;
-  border: 1px solid #CCC;
-  margin: 40px 0;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  background-color: #141414;
+  padding: 2rem 2rem 6rem 2rem;
   perspective: 600px;
+  height: 95vh;
 }
 
 .card {
-  width: 100%;
-  height: 100%;
+  
   transition: transform 1s;
   transform-style: preserve-3d;
   cursor: pointer;
@@ -192,11 +191,18 @@ body { font-family: sans-serif; }
 }
 
 .card__face--front {
-  background: red;
+  /* clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); */
+  margin-top: 6rem;
+  /* margin-bottom: 6rem; */
+  padding-bottom: 5rem;
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
 }
 
 .card__face--back {
-  background: blue;
+  /* clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); */
+  background-color: #efefef;
   transform: rotateY(180deg);
 }
 
