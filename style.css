@@ -109,7 +109,7 @@ main {
 }
 
 .section__projects h1 {
-  padding-top: 5rem;
+  padding: 5rem 1rem 2rem 1rem;
   font-size: 5rem;
   text-align: center;
   color: #efefef;
@@ -336,18 +336,43 @@ a:active {
     font-size: 2.8rem;
     margin: 0;
   }
+  .section__contact form {
+    width: 90%;
+    margin: 3rem auto;
+  }
+  .project-div__links {
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 23.5em) {
-  .projects-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    padding: 5rem 0;
-  }
+
   .project-title {
     font-size: 3.75rem;
   }
   .contact-heading {
     padding-top: 16rem;
+  }
+  #profile-link {
+    padding-top: 2rem;
+  }
+  .flexbox-row {
+    flex-direction: column;
+  }
+  img {
+    max-width: 95%;
+    margin: auto;
+  }
+  .section__welcome {
+    min-height: 90vh;
+  }
+  .section__projects .project-div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section__projects .project-div div {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 
