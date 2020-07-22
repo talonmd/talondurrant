@@ -21,10 +21,14 @@ main {
   border-radius: 8px;
 }
 
+.main--adjusted {
+  margin-top: 5rem;
+}
+
 /* WELCOME SECTION */
 
 .section__welcome {
-  height: 75vh;
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,6 +105,11 @@ main {
   padding-bottom: 12rem;
   background-color: #141414;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.section__projects--adjusted {
+  margin-top: 0;
+  padding-bottom: 2rem;
 }
 
 .section__projects .githublogo {
@@ -243,10 +252,28 @@ a {
   color: #141414;
 }
 
+.a--white {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.a--black {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #141414;
+  margin-left: 4.5rem;
+}
+
 a:hover {
   transform: translateY(-3px);
   transition: all 0.5s;
   color: rgb(156, 49, 49);
+}
+
+.a--white:hover,
+.a--black:hover {
+  text-decoration: underline;
 }
 
 a:active {
@@ -346,7 +373,6 @@ a:active {
 }
 
 @media (max-width: 23.5em) {
-
   .project-title {
     font-size: 3.75rem;
   }
@@ -428,4 +454,38 @@ a:active {
     opacity: 1;
     transform: translate(0);
   }
+}
+
+/* FOR THE PROJECT LISTS PAGES */
+
+.header {
+  background-color: #efefef;
+  border-bottom: 2px solid #141414;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+.header__name {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: .5rem 4.5rem;
+  font-size: 1.6rem;
+}
+
+.h2--white {
+  color: #efefef;
+  text-align: center;
+  margin: 0 2rem;
+}
+
+.h2--highlighted {
+  text-decoration: underline;
+  font-size: 1.4rem;
 }
