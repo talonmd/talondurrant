@@ -8,7 +8,7 @@
     <link href="style.css" rel="stylesheet">
     <title>Talon Durrant</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Staatliches&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Lato&family=Roboto&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -26,6 +26,9 @@
 
 
         <section class="section__about">
+            <div class="section__container">
+
+            
 
             <div class="flexbox-column">
                 <h1 id="about">About Me</h1>
@@ -50,14 +53,14 @@
                 
             </div>
 
-
+        </div>
         </section>
         <section class="section__projects">
-
+            <div class="section__container">
             <div class="flexbox-column">
                 <h1 id="work">Explore My Portfolio</h1>
                 <!-- <a href="#coursework" class="section__projects--link">Skip to my University Coursework</a> -->
-                <a href="https://github.com/talonmd" target="_blank" class="btn githublogo"><img
+                <a href="https://github.com/talonmd" target="_blank" class="githublogo"><img
                         src="images/github-logo.png"><br>Visit my GitHub</a>
 
 
@@ -67,19 +70,25 @@
                         <h2>Avarice Sheets</h2>
                         <p>A web application running on React that utilizes a Node/Express server and MongoDB databse. This app allows users to register, sign in, and create their own character and campaign sheets for Abberations in Avarice, a role-playing game similar to Dungeons and Dragons. These character and campaign sheets are interactive and allow the user to perfrom all CRUD actions on the database. It makes use of NPM Packages such as Axios and Immer, and is built using React hooks and features such as Reducer and Context.</p>
                         <p>More features are continuously being built and added to complete this large project. In the future, features will be implemented to open live socket connections to allow instant messaging and sessions to be in use.</p>
-                        <p><mark>Note: I am currently working on the login feature, so some functionality is down on the home page.</mark></p>
+              
                             <p class="project-div__tags"><span>|</span> React <span>|</span> JSX <span>|</span> JavaScript <span>|</span>
                                 Sass <span>|</span> Node <span>|</span> Express <span>|</span> MongoDB <span>|</span></p>
-                            <a href="https://github.com/talonmd/avarice-sheets" target="_blank"
-                                class="project-div__links">Front-end on GitHub</a>
-                                <a href="https://github.com/talonmd/avarice-sheets-server" target="_blank"
-                                class="project-div__links">Back-end on GitHub</a>
-                            <a href="https://avarice-sheets.netlify.app/" target="_blank"
-                                class="project-div__links">View Project Live</a>
+                            
                     </div>
-                    <a id="profile-link" href="https://avarice-sheets.netlify.app/" target="_blank">
-                        <img src="images/avarice-sheets.png">
-                    </a>
+                    <div class="flexbox-column">
+                        <a id="profile-link" href="https://avarice-sheets.netlify.app/" target="_blank">
+                            <img src="images/avarice-sheets.png">
+                        </a>
+                        <div>
+                            <a href="https://github.com/talonmd/avarice-sheets" target="_blank"
+                                        class="project-div__links">GitHub Repo</a>
+                              
+                                    <a href="https://avarice-sheets.netlify.app/" target="_blank"
+                                        class="project-div__links">View Live</a>
+
+                        </div>
+
+                    </div>
                 </div>
                 <!-- CLOSE PROJECT DIV -->
 
@@ -160,9 +169,11 @@
               
 
                 <a href="#about" class="btn btn--white btn--animated">About Me</a>
+            </div>
         </section>
 
         <section class="section__contact">
+            <div class="section__container">
             <h1 id="contact">Contact Me</h1>
 
             <form>
@@ -177,11 +188,11 @@
                 <textarea></textarea>
                 <input type="submit" class="btn btn--white btn--animated submit" value="Send Message">
             </form>
-
+</div>
         </section>
-        <div style="text-align: center;">
+        <!-- <div style="text-align: center;">
             <a class="btn btn--white btn--animated">About Me</a><a class="btn btn--white btn--animated">See My Work</a>
-        </div>
+        </div> -->
     </main>
     <footer>
         <p>&copy; 2021 by Talon Durrant</p>

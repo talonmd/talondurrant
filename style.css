@@ -16,11 +16,19 @@ body {
   background-color: #141414;
 }
 
+.section__container {
+  width: 100%;
+  transform: skew(5deg) rotate(5deg);
+  background-color: none;
+}
+
 main {
   background-color: #efefef;
   margin: 2rem;
   padding: 2rem;
-  border-radius: 8px;
+  padding-bottom: 10rem;
+  border-radius: 0;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .main--adjusted {
@@ -30,7 +38,7 @@ main {
 p {
   font-size: 1.2rem !important;
   font-weight: normal;
-  font-family: "Lato", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 /* WELCOME SECTION */
@@ -39,6 +47,7 @@ p {
   min-height: 75vh;
   display: flex;
   flex-direction: column;
+  padding-bottom: 3rem;
   align-items: center;
   justify-content: center;
   background-color: #efefef;
@@ -64,12 +73,14 @@ p {
 
 .section__about {
   background-color: #141414;
-  padding: 8rem 2rem 6rem 2rem;
+  padding: 6rem 2rem 8rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #efefef;
-  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  transform: skew(-5deg) rotate(-5deg);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2) inset;
+  /* clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); */
 }
 
 .section__about h1 {
@@ -112,7 +123,8 @@ p {
   width: 100%;
   padding-bottom: 12rem;
   background-color: #141414;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transform: skew(-5deg) rotate(-5deg);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
 }
 
 .section__projects--adjusted {
@@ -126,7 +138,7 @@ p {
 }
 
 .section__projects h1 {
-  padding: 5rem 1rem 2rem 1rem;
+  padding: 5rem 1rem 01rem;
   font-size: 5rem;
   text-align: center;
   color: #efefef;
@@ -138,6 +150,8 @@ p {
   margin: 2rem auto;
   background: #efefef;
   display: flex;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+  /* transform: skew(-1deg) rotate(-1deg); */
 }
 
 .section__projects .project-div p {
@@ -168,10 +182,9 @@ p {
   text-decoration: none;
   font-size: 1rem;
   padding: 1rem;
-  margin: 0 2rem 0 0;
   color: #141414;
   transition: all 0.2s;
-  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2); */
 }
 
 .section__projects .project-div .project-div__links:hover {
@@ -205,7 +218,8 @@ p {
   flex-direction: column;
   align-items: center;
   color: #efefef;
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  transform: skew(-5deg) rotate(-5deg);
+  /* clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); */
 }
 
 .section__contact h1 {
