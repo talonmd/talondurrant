@@ -7,21 +7,21 @@
   padding-bottom: 3rem;
   align-items: center;
   justify-content: center;
-  background-color: #efefef;
-}
+  background-color: $color-light;
 
-.section__welcome h1 {
-  font-size: 10rem;
-  text-align: center;
-  animation-name: moveInLeft;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
-}
+  h1 {
+    font-size: 10rem;
+    text-align: center;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
 
-.section__welcome h2 {
-  font-size: 5rem;
-  animation: moveInRight;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
-  text-align: center;
+  h2 {
+    font-size: 5rem;
+    animation: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    text-align: center;
+  }
 }
