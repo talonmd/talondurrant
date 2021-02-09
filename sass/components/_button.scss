@@ -10,41 +10,25 @@
   transition: all 0.2s;
   font-size: 1.6rem;
   z-index: 1;
-}
 
-.btn--black:hover {
-  color: #141414;
-  background-color: #efefef;
-  transform: translateY(-3px);
-}
+  &--white:hover {
+    color: $color-dark;
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+  }
 
-.btn--black:active {
-  transform: translateY(-1px);
-}
+  &--white:active {
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
 
-.btn--white:hover {
-  color: #141414;
-  transform: translateY(-3px);
-  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
-}
+  &--white {
+    background-color: $color-light;
+    color: $color-dark;
+  }
 
-.btn--white:active {
-  transform: translateY(-1px);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-.btn--white {
-  background-color: #efefef;
-  color: #141414;
-}
-
-.btn--black {
-  background-color: #141414;
-  color: #efefef;
-  text-align: center;
-}
-
-.btn--animated {
-  animation: moveInBottom 0.5s ease-out 0.75s;
-  animation-fill-mode: backwards;
+  &--animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+  }
 }

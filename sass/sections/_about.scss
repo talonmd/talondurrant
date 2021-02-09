@@ -10,6 +10,46 @@
   transform: skew(-5deg) rotate(-5deg);
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2) inset;
   /* clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); */
+
+  .skills-div {
+    padding: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+    color: $color-light;
+    display: flex;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+
+    div {
+      width: 33%;
+      padding: 0 1rem;
+
+      h3 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid $color-light;
+      }
+
+      h4 {
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+        border-bottom: 1px solid darken($color-light, 75%);
+      }
+
+      h5 {
+        font-size: 1.1rem;
+        padding-bottom: 0.8rem;
+      }
+
+      ul {
+        padding-bottom: 0.8rem;
+      }
+
+      li {
+        font-size: 1rem;
+        margin: 0.2rem 0 0.2rem 1rem;
+      }
+    }
+  }
 }
 
 .section__about h1 {
@@ -20,7 +60,6 @@
 
 .section__about p {
   padding: 1rem 2rem;
-  font-size: 1.6rem;
 }
 
 .section__about img {

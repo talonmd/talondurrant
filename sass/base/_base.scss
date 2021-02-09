@@ -15,28 +15,40 @@ html {
 
 body {
   font-family: "Staatliches", sans-serif;
-  color: #141414;
-  background-color: #141414;
+  color: $color-dark;
+  background-color: $color-dark;
 }
 
 main {
-  background-color: #efefef;
+  background-color: $color-light;
   margin: 2rem;
   padding: 2rem;
-  padding-bottom: 10rem;
+  padding-bottom: 4rem;
   border-radius: 0;
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
 }
 
-.main--adjusted {
-  margin-top: 5rem;
-}
-
-p {
+p,
+li {
   font-size: 1.2rem;
   font-weight: normal;
   font-family: "Kanit", sans-serif;
 }
+
+/* LINK STYLING */
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: $color-dark;
+  font-weight: 200;
+}
+
+a:hover {
+  color: rgb(156, 49, 49);
+}
+
+/* REALIGN THE SKEWED SECTIONS */
 
 .section__container {
   width: 100%;

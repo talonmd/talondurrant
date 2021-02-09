@@ -1,15 +1,14 @@
 /* FOOTER */
 
 footer {
-  color: #efefef;
+  color: $color-light;
   font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   padding-bottom: 2rem;
-}
-
-footer p {
-  font-family: "Staatliches", sans-serif;
+  p {
+    font-family: "Staatliches", sans-serif;
+  }
 }

@@ -1,0 +1,18 @@
+/* THANKS SECTION */
+
+.section__thanks {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-light;
+  h2 {
+    font-size: 5rem;
+    animation: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    text-align: center;
+  }
+}

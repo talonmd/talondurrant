@@ -30,11 +30,12 @@ fetch("/js/projects.json")
                                         </div>
                                         <div class="card__back">
                                             <div class="flexbox-column">
+                                            
+                                            <a href="${liveUrl}" target="_blank"
+                                            class="project-div__links">View Live</a>
+                                            
                                                 <a href="${repoUrl}" target="_blank"
                                                     class="project-div__links">GitHub Repo</a>
-    
-                                                <a href="${liveUrl}" target="_blank"
-                                                    class="project-div__links">View Live</a>
                                             </div>
                                         </div>
                                     </div>
