@@ -1,0 +1,50 @@
+/* BUTTON STYLING */
+
+.btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  margin-top: 4rem;
+  display: inline-block;
+  transition: all 0.2s;
+  font-size: 1.6rem;
+  z-index: 1;
+}
+
+.btn--black:hover {
+  color: #141414;
+  background-color: #efefef;
+  transform: translateY(-3px);
+}
+
+.btn--black:active {
+  transform: translateY(-1px);
+}
+
+.btn--white:hover {
+  color: #141414;
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn--white:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn--white {
+  background-color: #efefef;
+  color: #141414;
+}
+
+.btn--black {
+  background-color: #141414;
+  color: #efefef;
+  text-align: center;
+}
+
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}

@@ -1,0 +1,91 @@
+/* PROJECTS SECTION */
+
+.section__projects {
+  margin-top: 6rem;
+  width: 100%;
+  padding-bottom: 12rem;
+  background-color: #141414;
+  transform: skew(-5deg) rotate(-5deg);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+}
+
+.section__projects--adjusted {
+  margin-top: 0;
+  padding-bottom: 2rem;
+}
+
+.section__projects .githublogo {
+  color: white;
+  text-align: center;
+}
+
+.section__projects h1 {
+  padding: 5rem 1rem 01rem;
+  font-size: 5rem;
+  text-align: center;
+  color: #efefef;
+}
+
+.section__projects .project-div {
+  padding: 2rem;
+  width: 80%;
+  margin: 2rem auto;
+  background: #efefef;
+  display: flex;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+  /* transform: skew(-1deg) rotate(-1deg); */
+}
+
+.section__projects .project-div p {
+  padding: 1rem 1rem 0 0;
+  font-size: 1.6rem;
+}
+
+.section__projects .project-div .project-div__tags {
+  font-family: "Staatliches", sans-serif;
+  color: rgb(156, 49, 49);
+  padding-bottom: 2rem;
+  font-size: 1.5rem !important;
+}
+
+.section__projects .project-div .project-div__tags span {
+  color: #141414;
+}
+
+.section__projects .project-div h2 {
+  font-size: 3rem;
+}
+
+.section__projects .project-div img {
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.section__projects .project-div .project-div__links {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1rem;
+  color: #141414;
+  transition: all 0.2s;
+  /* box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2); */
+}
+
+.section__projects .project-div .project-div__links:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.section__projects .section__projects--link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin: 1rem 0 0 0;
+  background-color: #efefef;
+  color: #141414;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.section__projects .section__projects--link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.4);
+}

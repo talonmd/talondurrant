@@ -1,9 +1,0 @@
-
-            <!-- <div class="skills">
-                <p><strong>Scripts &amp; Languages: HTML5, CSS3, Sass, JavaScript, AJAX, PHP, Python </strong></p>
-                <p><strong>Front-end Libraries &amp; Frameworks: React, Redux, Angular, Vue, jQuery, Bootstrap, Gatsby, Next</strong></p>
-                <p><strong>Backend &amp; Server-side Technologies: NodeJS, Express, Laravel, Django, Apache</strong></p>
-                <p><strong>Database &amp; Technologies: MongoDB, PostgreSQL, MySQL, GraphQL</strong></p>
-                <p><strong>Workflow Tools: Git, GitHub, Netlify, Heroku, Webpack, Babel </strong></p>
-
-            </div> -->

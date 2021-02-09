@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&family=Staatliches&display=swap");
+
+// font-family: 'Kanit', sans-serif;
+// font-family: 'Staatliches', sans-serif;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Staatliches", sans-serif;
+  color: #141414;
+  background-color: #141414;
+}
+
+main {
+  background-color: #efefef;
+  margin: 2rem;
+  padding: 2rem;
+  padding-bottom: 10rem;
+  border-radius: 0;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.main--adjusted {
+  margin-top: 5rem;
+}
+
+p {
+  font-size: 1.2rem !important;
+  font-weight: normal;
+  font-family: "Kanit", sans-serif;
+}
+
+.section__container {
+  width: 100%;
+  transform: skew(5deg) rotate(5deg);
+  background-color: none;
+}
+
+/* UTILITY */
+
+.flexbox-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexbox-row {
+  display: flex;
+  justify-content: center;
+}
