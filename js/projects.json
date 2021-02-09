@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Avarice Sheets",
+    "description": [
+      "A web application running on React that utilizes a Node/Express server and MongoDB databse. This app allows users to register, sign in, and create their own character and campaign sheets for Abberations in Avarice, a role-playing game similar to Dungeons and Dragons. These character and campaign sheets are interactive and allow the user to perfrom all CRUD actions on the database. It makes use of NPM Packages such as Axios and Immer, and is built using React hooks and features such as Reducer and Context.",
+      "More features are continuously being built and added to complete this large project. In the future, features will be implemented to open live socket connections to allow instant messaging and sessions to be in use."
+    ],
+    "tags": ["React", "JSX", "JavaScript", "Sass", "Node", "Express", "MongoDB"],
+    "liveUrl": "https://avarice-sheets.netlify.app/",
+    "repoUrl": "https://github.com/talonmd/avarice-sheets",
+    "imagePath": "/avarice-sheets.png"
+  },
+  {
+    "title": "Mrs Durrant's Classroom",
+    "description": [
+      "A simply but visually pleasing webpage built for a 5th grade classroom. This was built simply using HTML and CSS/Sass, and features CSS Patterns and modern design techniques. The content is in the process of being added to this webpage."
+    ],
+    "tags": ["HTML", "Sass"],
+    "liveUrl": "https://github.com/talonmd/mrs-durrant",
+    "repoUrl": "https://github.com/talonmd/avarice-sheets",
+    "imagePath": "/mrs-durrant.png"
+  },
+  {
+    "title": "AvariceGame.com",
+    "description": [
+      "This webpage is currently a desktop template demonstrating by design work. I am in progressing making it a large-scale industrial sized website that will hold and display all the information for Abberations in Avarice, a role-playing game similar to Dungeons and Dragons. It will be run on React and pull much of its data from a MongoDB database via a Node/Express run server I have created. It will also be the launching point for many other apps I have in the works."
+    ],
+    "tags": ["HTML", "Sass", "JSON", "React", "Node", "Express", "MongoDB"],
+    "liveUrl": "https://github.com/talonmd/avarice-website",
+    "repoUrl": "https://avarice-website.netlify.app/",
+    "imagePath": "/avarice.png"
+  },
+  {
+    "title": "Summit Window Services",
+    "description": [
+      "A simple webpage built for Summit Window Services, a southern utah based Window Washing company. It was built simply using HTML and CSS/Sass. It is currently an unfinished template, and is close to being completed. At completion, this webpage will feature a contact form powered by PHP as well."
+    ],
+    "tags": ["HTML", "Sass", "PHP"],
+    "liveUrl": "https://summit-window-services.netlify.app/",
+    "repoUrl": "https://github.com/talonmd/summit-window-services",
+    "imagePath": "/summit-window-services.png"
+  },
+  {
+    "title": "Botanicals Design",
+    "description": [
+      "A custom Wordpress theme created for Botanicals, Inc, a Utah-based Plantscape Design business. It was designed from scratch, and styled using Sass. This theme makes use of custom post types as well as custom wordpress queries, and was built with SEO in mind. In addition to a blog, the site has post types for Announcements, Events, and News to keep their retail locations happenings well known. The dev environment utilized Local by Flywheel as well as Node and NPM."
+    ],
+    "tags": ["HTML", "Sass", "PHP", "WordPress"],
+    "liveUrl": "https://botanicalsdesign.com/",
+    "repoUrl": "https://github.com/talonmd/botanicals-design-wordpress-theme",
+    "imagePath": "/botanicals.png"
+  }
+]
