@@ -46,22 +46,3 @@ fetch("/js/projects.json")
     })
   })
   .catch((err) => console.log(err))
-
-// this is an extra project not ready to be added into the projects.json file yet
-//   {
-//     "title": "Coops n Sheds Co.",
-//     "description": [
-//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-//     ],
-//     "tags": [
-//       "React",
-//       "Node",
-//       "Express",
-//       "Docker",
-//       "Kubernetes",
-//       "Microservices-based Architecture"
-//     ],
-//     "liveUrl": "",
-//     "repoUrl": "https://github.com/talonmd/coops-n-sheds-co",
-//     "imagePath": "/coops-n-sheds-co.png"
-//   },
