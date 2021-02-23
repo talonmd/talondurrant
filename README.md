@@ -6,11 +6,9 @@ I have tagged and described my repo's to help you navigate, but even better, I h
 
 Botanicals Design ([repo](https://github.com/botanicals/botanicalsdesign), [live](https://botanicalsdesign.netlify.app/))
 
-## Projects I am currently building:
+Avarice Sheets ([repo](https://github.com/avaricegame/avarice-sheets), [live](https://avarice-sheets.netlify.app/)) (in progress, so there may be a few bugs)
 
-Avarice Sheets ([repo](https://github.com/avaricegame/avarice-sheets), [live](https://avarice-sheets.netlify.app/))
-
-AvariceGame.com ([repo](https://github.com/avaricegame/avarice-website), [live](https://avarice-website.vercel.app/))
+AvariceGame.com ([repo](https://github.com/avaricegame/avarice-website), [live](https://avarice-website.vercel.app/)) (just getting started with this one, so it isn't that impressive yet)
 
 ## Some Projects I have Completed as Part of Courses
 
