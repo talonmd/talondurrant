@@ -1,8 +1,18 @@
 [
   {
+    "title": "Botanicals Design",
+    "description": [
+      "This website was originally in WordPress, and I instead switch the tech stack to use React, specifically Gatsby for Static Site Generation. It is a very image-heavy site, so I utilized many responsive image techniques."
+    ],
+    "tags": ["React", "Gatbsy", "SSG", "Image Optimizations"],
+    "liveUrl": "https://botanicalsdesign.netlify.app/",
+    "repoUrl": "https://github.com/botanicals/botanicalsdesign",
+    "imagePath": "/botanicals-design.png"
+  },
+  {
     "title": "Avarice Sheets",
     "description": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "This is an application I have been working on for quite a while. It uses a Node/Express backend REST API and a MongoDB database, and a React front end. I am currently working on hooking up the React front end to the backend. More information is available on my GitHub repo."
     ],
     "tags": [
       "React",
@@ -16,19 +26,9 @@
     "imagePath": "/avarice-sheets.png"
   },
   {
-    "title": "Botanicals Design",
-    "description": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ],
-    "tags": ["React", "Gatbsy", "SSG", "Image Optimizations"],
-    "liveUrl": "https://botanicalsdesign.netlify.app/",
-    "repoUrl": "https://github.com/botanicals/botanicalsdesign",
-    "imagePath": "/botanicals-design.png"
-  },
-  {
     "title": "AvariceGame.com",
     "description": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "I just recently started this, it is currently a shell but is currently in progress to be a large-scale server-side rendered website (with NextJS) and also include a User Dashboard."
     ],
     "tags": ["React", "NextJS", "Sass", "REST API Backend (Node, Express)"],
     "liveUrl": "https://avarice-website.vercel.app/",
