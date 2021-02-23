@@ -12,7 +12,7 @@
   {
     "title": "Avarice Sheets",
     "description": [
-      "This is an application I have been working on for quite a while. It uses a Node/Express backend REST API and a MongoDB database, and a React front end. I am currently working on hooking up the React front end to the backend. More information is available on my GitHub repo."
+      "This is an application I have been working on for quite a while. It uses a Node/Express backend REST API and a MongoDB database, and a React frontend. I am currently working on hooking up the React frontend to the backend. More information is available on my GitHub repo."
     ],
     "tags": [
       "React",
@@ -28,7 +28,7 @@
   {
     "title": "AvariceGame.com",
     "description": [
-      "I just recently started this, it is currently a shell but is currently in progress to be a large-scale server-side rendered website (with NextJS) and also include a User Dashboard."
+      "I just recently started this, it is currently a shell but is going to be a large-scale server-side rendered website (with NextJS) and also include a User Dashboard."
     ],
     "tags": ["React", "NextJS", "Sass", "REST API Backend (Node, Express)"],
     "liveUrl": "https://avarice-website.vercel.app/",

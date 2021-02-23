@@ -4,6 +4,11 @@
   height: 300px;
   perspective: 1000px;
 
+  @media (max-width: 45em) {
+    width: 200px;
+    height: 200px;
+  }
+
   &:focus {
     outline: 0;
   }
@@ -36,6 +41,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    img {
+      @media (max-width: 45em) {
+        width: 200px;
+        height: 200px;
+      }
+    }
   }
 
   &__back {

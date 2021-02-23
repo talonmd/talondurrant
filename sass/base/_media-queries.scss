@@ -40,7 +40,7 @@
   }
 }
 
-@media (max-width: 23.5em) {
+@media (max-width: 45em) {
   .project-title {
     font-size: 3.75rem;
   }
@@ -53,10 +53,6 @@
   .flexbox-row {
     flex-direction: column;
   }
-  img {
-    max-width: 95%;
-    margin: auto;
-  }
   .section__welcome {
     min-height: 90vh;
   }
@@ -64,8 +60,8 @@
     display: flex;
     flex-direction: column-reverse;
   }
-  .section__projects .project-div div {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
+  // .section__projects .project-div div {
+  //   padding-top: 3rem;
+  //   padding-bottom: 3rem;
+  // }
 }
