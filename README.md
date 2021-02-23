@@ -6,7 +6,7 @@ I have tagged and described my repo's to help you navigate, but even better, I h
 
 Botanicals Design ([repo](https://github.com/botanicals/botanicalsdesign), [live](https://botanicalsdesign.netlify.app/))
 
-MrsDurrant.com ([repo](), [live]()) (built with only HTML & Sass)
+MrsDurrant.com ([repo](https://github.com/talonmd/mrs-durrant), [live](https://mrsdurrant.com/)) (built with only HTML & Sass)
 
 Avarice Sheets ([repo](https://github.com/avaricegame/avarice-sheets), [live](https://avarice-sheets.netlify.app/)) (redux-saga and backend implementation currently in progress, so there may be a few bugs depending on when you are looking at this)
 
