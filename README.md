@@ -2,7 +2,7 @@
 
 I have tagged and described my repo's to help you navigate, but even better, I have made a list below of the projects I want you to see below.
 
-## My Portfolio Projects (make sure to look at these, they also should be pinned right below this):
+## My Portfolio Projects (so far):
 
 Botanicals Design ([repo](https://github.com/botanicals/botanicalsdesign), [live](https://botanicalsdesign.netlify.app/))
 
