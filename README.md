@@ -1,4 +1,4 @@
-# talondurrant.com
+# Talon Durrant - Portfolio (talondurrant.com)
 
 I have tagged and described my repo's to help you navigate, but even better, I have made a list below of the projects I want you to see below.
 
