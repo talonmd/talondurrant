@@ -5,14 +5,14 @@
       "This website was originally in WordPress, and I instead switch the tech stack to use React, specifically Gatsby for Static Site Generation. It is a very image-heavy site, so I utilized many responsive image techniques."
     ],
     "tags": ["React", "Gatbsy", "SSG", "Image Optimizations"],
-    "liveUrl": "https://botanicalsdesign.netlify.app/",
+    "liveUrl": "https://botanicalsdesign.com/",
     "repoUrl": "https://github.com/botanicals/botanicalsdesign",
     "imagePath": "/botanicals-design.png"
   },
   {
     "title": "Avarice Sheets",
     "description": [
-      "This is an application I have been working on for quite a while. It uses a Node/Express backend REST API and a MongoDB database, and a React frontend. I am currently working on hooking up the React frontend to the backend. More information is available on my GitHub repo."
+      "This is an enourmous application I have been working on for quite a while. It is built using React and Redux, along with Redux-Saga. The backend is a Node/Express REST API and a MongoDB database (see the project below). <em>NOTE: You will have to register an account to view it. If you do not wish to do so, <strong>please type 'test@test.com' as email, and 'password' as password</strong> to use a test account.</em>"
     ],
     "tags": [
       "React",
@@ -21,18 +21,18 @@
       "Redux-Saga",
       "REST API Backend (Node, Express)"
     ],
-    "liveUrl": "https://avarice-sheets.netlify.app/",
+    "liveUrl": "https://sheets.avaricegame.com/",
     "repoUrl": "https://github.com/talonmd/avarice-sheets",
     "imagePath": "/avarice-sheets.png"
   },
   {
-    "title": "AvariceGame.com",
+    "title": "Avarice Sheets API",
     "description": [
-      "I just recently started this, it is currently a shell but is going to be a large-scale server-side rendered website (with NextJS) and also include a User Dashboard."
+      "A Node/Express backend REST API for Avarice Sheets. It is built following MVC prinicples, and utilizes a MongoDB database in the cloud (Atlas)."
     ],
-    "tags": ["React", "NextJS", "Sass", "REST API Backend (Node, Express)"],
-    "liveUrl": "https://avarice-website.vercel.app/",
-    "repoUrl": "https://github.com/avaricegame/avarice-website",
-    "imagePath": "/avarice.png"
+    "tags": ["Node", "Express", "MVC", "REST API", "MongoDB"],
+    "liveUrl": false,
+    "repoUrl": "https://github.com/avaricegame/avarice-sheets-api",
+    "imagePath": "/avarice-sheets-api.png"
   }
 ]
