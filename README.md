@@ -2,15 +2,25 @@
 
 I have tagged and described my repo's to help you navigate, but even better, I have made a list below of the projects I want you to see below.
 
+I emphasize in Full Stack JavaScript, and focus most of my projects on React & Node/Express.
+
 ## My Portfolio Projects (so far):
 
-Botanicals Design ([repo](https://github.com/botanicals/botanicalsdesign), [live](https://botanicalsdesign.netlify.app/))
+Botanicals Design ([repo](https://github.com/botanicals/botanicalsdesign), [live](https://botanicalsdesign.com/))
+
+Avarice Sheets ([repo](https://github.com/avaricegame/avarice-sheets), [live](https://sheets.avaricegame.com/)) (I am ALWAYS working on this -- but the most current functional version is always launched.)
+
+Avarice Sheets API ([repo](https://github.com/avaricegame/avarice-sheets-api))
+
+## What am I currently working on?
+
+I am currently working on getting a firm grasp of AWS, Docker + Kubernetes, and React Native.
+
+AvariceGame.com ([repo](https://github.com/avaricegame/avarice-website), [live](https://avaricegame.com/)) (just getting started with this one, so it isn't that impressive or done yet)
+
+## Some Other Projects That I Like
 
 MrsDurrant.com ([repo](https://github.com/talonmd/mrs-durrant), [live](https://mrsdurrant.com/)) (built with only HTML & Sass)
-
-Avarice Sheets ([repo](https://github.com/avaricegame/avarice-sheets), [live](https://avarice-sheets.netlify.app/)) (redux-saga and backend implementation currently in progress, so there may be a few bugs depending on when you are looking at this)
-
-AvariceGame.com ([repo](https://github.com/avaricegame/avarice-website), [live](https://avarice-website.vercel.app/)) (just getting started with this one, so it isn't that impressive or done yet)
 
 ## Some Projects I have Completed as Part of Courses
 
