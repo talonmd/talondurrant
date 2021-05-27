@@ -8,7 +8,7 @@ I emphasize in Full Stack JavaScript, and focus most of my projects on React & N
 
 Botanicals Design ([repo](https://github.com/botanicals/botanicalsdesign), [live](https://botanicalsdesign.com/))
 
-Avarice Sheets ([repo](https://github.com/avaricegame/avarice-sheets), [live](https://sheets.avaricegame.com/)) (I am ALWAYS working on this -- but the most current functional version is always launched.)
+Avarice Sheets ([repo](https://github.com/avaricegame/avarice-sheets), [live](https://sheets.avaricegame.com/)) (I am ALWAYS working on this because it is so large -- but the most current functional version is always the one deployed.)
 
 Avarice Sheets API ([repo](https://github.com/avaricegame/avarice-sheets-api))
 
