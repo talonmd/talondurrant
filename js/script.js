@@ -32,15 +32,15 @@ fetch("/js/projects.json")
                                             <div class="flexbox-column">
                                             
                                             ${
-                                              liveUrl ? (
-                                                <a
+                                              liveUrl
+                                                ? `<a
                                                   href="${liveUrl}"
                                                   target="_blank"
                                                   class="project-div__links"
                                                 >
                                                   View Live
-                                                </a>
-                                              ) : null
+                                                </a>`
+                                                : ""
                                             }
                                             
                                                 <a href="${repoUrl}" target="_blank"
