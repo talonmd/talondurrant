@@ -12,13 +12,14 @@
   {
     "title": "Avarice Sheets",
     "description": [
-      "This is an enourmous application I have been working on for quite a while. It is built using React and Redux, along with Redux-Saga. The backend is a Node/Express REST API and a MongoDB database (see the project below). <em>NOTE: You will have to register an account to view it. If you do not wish to do so, <strong>please type 'test@test.com' as email, and 'password' as password</strong> to use a test account.</em>"
+      "This is an enourmous application I have been working on for quite a while. It is built using React and Redux, along with Redux-Saga. I design and built the UI from scratch, with Scss. The backend is a Node/Express REST API and a MongoDB database (see the project below). <em>NOTE: You will have to register an account to view it. If you do not wish to do so, <strong>please type 'test@test.com' as email, and 'password' as password</strong> to use a test account.</em>"
     ],
     "tags": [
       "React",
       "Lifecycle Methods",
       "Redux",
       "Redux-Saga",
+      "Scss",
       "REST API Backend (Node, Express)"
     ],
     "liveUrl": "https://sheets.avaricegame.com/",
