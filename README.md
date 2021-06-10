@@ -16,7 +16,7 @@ Avarice Sheets API ([repo](https://github.com/avaricegame/avarice-sheets-api))
 
 I am currently working on getting a firm grasp of AWS, Docker + Kubernetes, and React Native. In addition, my projects I am working on are Avarice Sheets (already listed above), and AvariceGame.com, which is in the very beginnings of development with NextJS.
 
-AvariceGame.com ([repo](https://github.com/avaricegame/avarice-website), [live](https://avaricegame.com/)) (just getting started with this one, so it isn't that impressive or done yet)
+AvariceGame.com ([repo](https://github.com/avaricegame/avarice-website), [live](https://avarice-website.netlify.app/)) (just getting started with this one, so it isn't that impressive or done yet)
 
 ## Some Other Projects That I Like
 
