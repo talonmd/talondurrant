@@ -6,17 +6,17 @@ I emphasize in Full Stack JavaScript, and focus most of my projects on React & N
 
 ## My Portfolio Projects (so far):
 
-Botanicals Design ([repo](https://github.com/botanicals/botanicalsdesign), [live](https://botanicalsdesign.com/))
+Botanicals Design ([private repo], [live](https://botanicalsdesign.com/))
 
-Avarice Sheets ([repo](https://github.com/avaricegame/avarice-sheets), [live](https://sheets.avaricegame.com/)) (I am ALWAYS working on this because it is so large -- but the most current functional version is always the one deployed.)
+Avarice Sheets ([private repo], [live](https://sheets.avaricegame.com/)) (I am ALWAYS working on this because it is so large -- but the most current functional version is always the one deployed.)
 
-Avarice Sheets API ([repo](https://github.com/avaricegame/avarice-sheets-api))
+Avarice Sheets API ([private repo])
 
 ## What am I currently working on?
 
-I am currently working on getting a firm grasp of AWS, Docker + Kubernetes, and React Native. In addition, my projects I am working on are Avarice Sheets (already listed above), and AvariceGame.com, which is in the very beginnings of development with NextJS.
+The projects I am working on are Avarice Sheets (already listed above), and AvariceGame.com, which is in the very beginnings of development with NextJS and Netlify CMS.
 
-AvariceGame.com ([repo](https://github.com/avaricegame/avarice-website), [live](https://avaricegame.com/)) (just getting started with this one, so it isn't that impressive or done yet)
+AvariceGame.com ([private repo], [live](https://avarice-website.netlify.app/)) (just getting started with this one, so it isn't that impressive or done yet)
 
 ## Some Other Projects That I Like
 
