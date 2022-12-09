@@ -2,31 +2,31 @@
   {
     "title": "Botanicals Design",
     "description": [
-      "This website was originally in WordPress, and I instead switch the tech stack to use React, specifically Gatsby for Static Site Generation. It is a very image-heavy site, so I utilized many responsive image techniques."
+      "This informational website it built in NextJS and Typescript/Javascript. It uses Netlify CMS with custom preview templates as a CMS. It is a very image-heavy site, so I utilized many responsive image techniques."
     ],
-    "tags": ["React", "Gatbsy", "SSG", "Image Optimizations"],
+    "tags": ["React", "NextJS", "SCSS", "Netlify CMS", "Image Optimizations"],
     "liveUrl": "https://botanicalsdesign.com/",
     "repoUrl": "https://github.com/botanicals/botanicalsdesign",
     "imagePath": "/botanicals-design.png"
   },
   {
-    "title": "Avarice Sheets",
+    "title": "Aberrations RPG Sheets",
     "description": [
-      "This is an enourmous application I have been working on for quite a while. It is built using React and Redux, along with Redux-Saga. I design and built the UI from scratch, with Scss. The backend is a Node/Express REST API and a MongoDB database (see the project below).</p><p><em>NOTE: To be able to explore all the features you will need to log in.  Please type <strong>'test@test.com'</strong> as email, and <strong>'password'</strong> as password to use the test account.</em>"
+      "This is an enourmous application I have been working on for quite a while that allows players to track their characters in a TTRPG called Aberrations RPG. It is run by a games business I started, and has over 20 active users now. I built the entire thing using React and Redux, along with Redux-Saga. It is currently being switched from Javascript to Typescript. I designed and built the UI from scratch, using Tailwind CSS. The backend is a Node/Express REST API and a MongoDB database (see the project below). </p><p><em>NOTE: To be able to explore all the features you will need to log in.  Please type <strong>'demo@sodalitegames.com'</strong> as email, and <strong>'password'</strong> as password to use the demo account.</em>"
     ],
-    "tags": ["React", "Lifecycle Methods", "Redux", "Redux-Saga", "Scss", "REST API Backend"],
-    "liveUrl": "https://sheets.avaricegame.com/",
-    "repoUrl": "https://github.com/talonmd/avarice-sheets",
-    "imagePath": "/avarice-sheets.png"
+    "tags": ["React", "Hooks", "Redux", "Redux-Saga", "Tailwind CSS", "React Router Dom", "Socket.io", "REST API Backend"],
+    "liveUrl": "https://sheets.aberrations-rpg.com/",
+    "repoUrl": "https://github.com/sodalitegames/aberrations-sheets",
+    "imagePath": "/aberrations-rpg.png"
   },
   {
-    "title": "Avarice Sheets API",
+    "title": "Aberrations RPG Sheets API",
     "description": [
-      "A Node/Express backend REST API for Avarice Sheets. It is built following MVC prinicples, and utilizes a MongoDB database in the cloud (Atlas)."
+      "A Node/Express backend REST API for Aberrations RPG Sheets. It utilizes Socket.io for live connections. It is built following MVC prinicples, and utilizes a MongoDB database in the cloud (Atlas)."
     ],
-    "tags": ["Node", "Express", "MVC", "REST API", "MongoDB"],
+    "tags": ["Node", "Express", "Socket.io", "MVC", "REST API", "MongoDB"],
     "liveUrl": false,
-    "repoUrl": "https://github.com/avaricegame/avarice-sheets-api",
-    "imagePath": "/avarice-sheets-api.png"
+    "repoUrl": "https://github.com/sodalitegames/aberrations-sheets-api",
+    "imagePath": "/aberrations-rpg.png"
   }
 ]
